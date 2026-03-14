@@ -24,11 +24,9 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Parking Chaos is a clone of the famous "Rush Hour" or "Traffic Jam" game,
-written from scratch based on ParkMeeCrazy.
-Move the red tractor to the exit on the right by dragging others out of the way.
-Horizontal cars can only move left and right, vertical ones can only move
-up and down.
+Parking Chaos - клон игры “Час пик” или “Пробки”, созданный с нуля на основе ParkMeeCrazy.
+Переместите красный трактор к выходу справа, передвигая других с дороги.
+Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз.
 
 
 %prep

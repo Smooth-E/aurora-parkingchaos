@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="25"/>
         <source>Parking Chaos</source>
-        <translation>Хаос на парковке</translation>
+        <translation>Parking Chaos</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
@@ -59,11 +59,6 @@
         <translation>Словацкий</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="142"/>
-        <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/AboutPage.qml" line="148"/>
         <source>Polish</source>
         <translation>Польский</translation>
@@ -99,6 +94,11 @@
         <translation>Русский</translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <source>Portuguese (Brazil)</source>
+        <translation>Бразильский португальский</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/AboutPage.qml" line="155"/>
         <source>Norwegian Bokmål</source>
         <translation>Норвежский букмол</translation>
@@ -111,7 +111,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
-        <translation>Час пик на парковке!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; клон игры “Час пик” или “Пробки”, созданной с нуля на основе &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Переместите красный трактор к выходу справа, передвигая других с дороги. Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз .</translation>
+        <translation>Переполох на парковке!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; - клон игры “Час пик” или “Пробки”, созданный с нуля на основе &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Переместите красный трактор к выходу справа, передвигая других с дороги. Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
@@ -152,7 +152,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="44"/>
         <source>Parking Chaos</source>
-        <translation>Хаос на парковке</translation>
+        <translation>Parking Chaos</translation>
     </message>
 </context>
 <context>
@@ -178,12 +178,12 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
         <source>%1 / %2 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 ходов</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="65"/>
         <source>%1 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ходов</translation>
     </message>
 </context>
 <context>
