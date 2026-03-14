@@ -4,9 +4,10 @@ SPDX-FileCopyrightText: 2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
-![Parking Chaos banner](dist/banner-small.png)
-
-# Parking Chaos для ОС Аврора
+<h1>
+   <img src="qml/images/harbour-parkingchaos.png" align="left" width="40em" height="40em"/>
+   <span>Parking Chaos для ОС Аврора</span>
+</h1>
 
 Переполох на вашей парковке!
 
