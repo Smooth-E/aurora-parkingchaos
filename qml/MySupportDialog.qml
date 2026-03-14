@@ -2,6 +2,7 @@
  * This file is part of harbour-parkingchaos.
  * SPDX-License-Identifier: GPL-3.0-or-later
  * SPDX-FileCopyrightText: 2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  */
 
 import QtQuick 2.0
@@ -18,11 +19,10 @@ SupportDialog {
     }
 
     SupportAction {
-        icon: SupportIcon.Weblate
-        title: qsTr("Translate on Weblate")
-        description: qsTr("Help with translating this app in as many " +
-                          "languages as possible.")
-        link: "https://hosted.weblate.org/projects/harbour-parkingchaos"
+        icon: Qt.resolvedUrl("./images/boosty.png")
+        title: qsTr("Support port maintainer")
+        description: qsTr("Support Aurora OS port maintainer by donating through Boosty.")
+        link: "https://boosty.to/smooth-e/donate"
     }
 
     SupportAction {
@@ -30,7 +30,7 @@ SupportDialog {
         title: qsTr("Develop on Github")
         description: qsTr("Support with maintenance and packaging, " +
                           "write code, or provide valuable bug reports.")
-        link: "https://github.com/ichthyosaurus/harbour-parkingchaos"
+        link: "https://github.com/smooth-e/aurora-parkingchaos"
     }
 
     DetailsDrawer {

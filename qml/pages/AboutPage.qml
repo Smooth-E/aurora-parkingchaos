@@ -1,6 +1,7 @@
 /*
  * This file is part of harbour-parkingchaos.
  * SPDX-FileCopyrightText: 2022-2023 Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -23,22 +24,28 @@ A.AboutPageBase {
     id: root
 
     appName: qsTr("Parking Chaos")
-    appIcon: Qt.resolvedUrl("../images/%1.png".arg(Qt.application.name))
+    appIcon: Qt.resolvedUrl("../images/harbour-parkingchaos.png")
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
 
     allowDownloadingLicenses: false
-    sourcesUrl: "https://github.com/ichthyosaurus/%1".arg(Qt.application.name)
-    homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
-    translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
+    sourcesUrl: "https://github.com/smooth-e/aurora-parkingchaos"
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
 
-    donations.text: donations.defaultTextCoffee
+
+    donations.text: qsTr("If you found this app helpful, feel welcome to support the original "
+                         + "developer or the Aurora OS port maintainer by donating.")
+
+
     donations.services: [
         A.DonationService {
-            name: "Liberapay"
+            name: qsTr("App dev's Liberapay")
             url: "https://liberapay.com/ichthyosaurus"
+        },  
+        A.DonationService {
+            name: qsTr("Port maintainer's Boosty")
+            url: "https://boosty.to/smooth-e/donate"
         }
     ]
 
@@ -48,7 +55,8 @@ A.AboutPageBase {
                       'Move the red tractor to the exit on the right by dragging others out of the way. ' +
                       'Horizontal cars can only move left and right, vertical ones can only move ' +
                       'up and down.')
-    mainAttributions: ["2020-%1 Mirian Margiani".arg((new Date()).getFullYear())]
+
+    mainAttributions: [ "2026 Smooth-E", "2020-%1 Mirian Margiani".arg((new Date()).getFullYear()) ]
     autoAddOpalAttributions: true
 
     attributions: [
@@ -88,7 +96,7 @@ A.AboutPageBase {
             groups: [
                 A.ContributionGroup {
                     title: qsTr("Programming")
-                    entries: ["Mirian Margiani"]
+                    entries: [ "Mirian Margiani", "Smooth-E" ]
                 },
                 A.ContributionGroup {
                     title: qsTr("Graphics Design")
