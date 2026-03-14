@@ -1,6 +1,7 @@
 /*
  * This file is part of harbour-parkingchaos.
  * SPDX-FileCopyrightText: Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -8,6 +9,14 @@ import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "1.3.0.1-1"
+        date: "2026-03-15"
+        paragraphs: [
+            "- Первая версия для ОС Аврора<br>" +
+            "- Добавлены новые переводы на Русский язык"
+        ]
+    }
     ChangelogItem {
         version: "1.3.0-1"
         date: "2025-08-12"

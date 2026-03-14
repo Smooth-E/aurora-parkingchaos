@@ -10,7 +10,7 @@ Name:       moe.smoothie.parkingchaos
 %define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    Переполох на вашей парковке!
-Version:    1.3.0
+Version:    1.3.0.1
 Release:    1
 Group:      Amusements/Games
 License:    GPL-3.0-or-later

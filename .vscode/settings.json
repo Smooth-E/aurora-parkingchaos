@@ -2,6 +2,7 @@
     "files.associations": {
         "*.desktop": "ini",
         "*.pro": "shellscript",
-        "*.spec": "shellscript"
+        "*.spec": "shellscript",
+        "*.changes": "shellscript"
     }
 }
