@@ -1,11 +1,12 @@
 # This file is part of harbour-parkingchaos.
 # SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2020-2023 Mirian Margiani
+
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=harbour-parkingchaos
-Exec=harbour-parkingchaos
+Icon=moe.smoothie.parkingchaos
+Exec=moe.smoothie.parkingchaos
 
 # translation example:
 # your app name in German locale (de)
@@ -17,10 +18,7 @@ Name[de]=Parkplatzchaos
 Name[en]=Parking Chaos
 Name[sv]=Parkeringskaos
 
-[X-Sailjail]
+[X-Application]
 Permissions=
-OrganizationName=harbour-parkingchaos
-ApplicationName=harbour-parkingchaos
-
-[X-HarbourBackup]
-BackupConfigList=/apps/harbour-parkingchaos/
+OrganizationName=moe.smoothie
+ApplicationName=parkingchaos

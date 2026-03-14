@@ -12,35 +12,33 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-parkingchaos
-CONFIG += sailfishapp
+TARGET = moe.smoothie.parkingchaos
+CONFIG += auroraapp
 
-SOURCES += src/harbour-parkingchaos.cpp
+SOURCES += src/moe.smoothie.parkingchaos.cpp
 
-DISTFILES += qml/harbour-parkingchaos.qml \
+DISTFILES += qml/moe.smoothie.parkingchaos.qml \
     qml/cover/*.qml \
     qml/pages/*.qml \
     qml/components/*.qml \
     qml/components/*.js \
     qml/images/*.png \
-    rpm/harbour-parkingchaos.changes.in \
-    rpm/harbour-parkingchaos.changes.run.in \
-    rpm/harbour-parkingchaos.spec \
-    rpm/harbour-parkingchaos.yaml \
+    rpm/moe.smoothie.parkingchaos.changes \
+    rpm/moe.smoothie.parkingchaos.spec \
     translations/*.ts \
-    harbour-parkingchaos.desktop
+    moe.smoothie.parkingchaos.desktop
 
 data.files = data
 data.path = /usr/share/$${TARGET}
 
 INSTALLS += data
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
 
 # to disable building translations every time, comment out the
 # following CONFIG line
-CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-parkingchaos-*.ts
+CONFIG += auroraapp_i18n
+TRANSLATIONS += translations/moe.smoothie.parkingchaos-*.ts
 
 QML_IMPORT_PATH += qml/modules
 

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.desktop": "ini",
+        "*.pro": "shellscript",
+        "*.spec": "shellscript"
+    }
+}

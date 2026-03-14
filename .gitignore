@@ -71,3 +71,6 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# WSL metadata for files
+*:Zone.Identifier
