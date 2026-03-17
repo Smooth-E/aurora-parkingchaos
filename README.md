@@ -17,6 +17,10 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 Переместите красный трактор к выходу справа, передвигая других с дороги.
 Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз.
 
+| Ссылки для скачивания |
+| --- |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/parking-chaos) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-parkingchaos/releases/latest/) |
+
 ## Поддержать проект
 
 Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/Smooth-E/aurora-parkingchaos/issues).
