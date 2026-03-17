@@ -29,7 +29,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 1. Клонируйте этот репозиторий
    ```sh
-   git clone --recurse-submodules https://github.com/Smooth-E/aurora-parkingchaos
+   git clone https://github.com/Smooth-E/aurora-parkingchaos
    ```
 2. Далее соберите RPM-пакет и запустите приложение на устройстве стандартным способом.
 
