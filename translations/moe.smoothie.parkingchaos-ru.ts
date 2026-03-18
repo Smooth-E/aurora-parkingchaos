@@ -522,8 +522,8 @@
         <source>You completed this level in %L1 move(s)!</source>
         <translation>
             <numerusform>Вы выполнили уровень в один ход!</numerusform>
+            <numerusform>Вы выполнили уровень за %L1 хода!</numerusform>
             <numerusform>Вы выполнили уровень за %L1 ходов!</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
 </context>
